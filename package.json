@@ -1,0 +1,21 @@
+{
+  "name": "node-directed-graph",
+  "version": "0.0.1",
+  "description": "Node.JS implementation of a directed graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "topological",
+    "sort",
+    "directed",
+    "graph"
+  ],
+  "author": "Gregory Maglio",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.5.0"
+  }
+}
