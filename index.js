@@ -1,3 +1,5 @@
+const debug = require('debug')('graph');
+
 class DirectedGraph {
   constructor (input) {
     this.graph = {};
@@ -18,6 +20,7 @@ class DirectedGraph {
    *
    */
   getGraph () {
+    debug(this.graph);
     return this.graph;
   }
 
@@ -59,9 +62,9 @@ class DirectedGraph {
   }
 
   // private methods start here
-  
+
   /**
-   * purge visitedNodes list 
+   * purge visitedNodes list
    *
    */
   flushVisitedNodes () {

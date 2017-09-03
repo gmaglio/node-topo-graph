@@ -12,10 +12,17 @@
     "directed",
     "graph"
   ],
+  "semistandard": {
+    "globals": [
+      "describe",
+      "it"
+     ]
+  },
   "author": "Gregory Maglio",
   "license": "MIT",
   "dependencies": {
     "assert": "^1.4.1",
+    "debug": "^3.0.1",
     "mocha": "^3.5.0"
   }
 }
